@@ -1,10 +1,10 @@
 <?php
 
-$conexion = new mysqli("localhost", "root", "", "informacion");
+$conexion = new mysqli("localhost", "root", "", "ejerciciosphp");
 
 //var_dump($conexion);
 
-$consulta =  $conexion->query(" SELECT * FROM usuarios");
+$consulta =  $conexion->query(" SELECT * FROM users");
     
 //var_dump($consulta);   
 

@@ -13,7 +13,7 @@ $SQL = "INSERT INTO users VALUES (
     '$_POST[email]',
     '$_POST[phone]',
     '$_POST[age]'
- );
+ )";
 
 
 $conexion->query($SQL)   or die($conexion);// Muestra los errores 
