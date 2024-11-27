@@ -1,6 +1,8 @@
 <?php
 
-include "conexion.php";
+include "../conexion.php";
+
+
 
 $SQL = "INSERT INTO users VALUES (
     NULL,

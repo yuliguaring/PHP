@@ -8,8 +8,11 @@
 </head>
 
 <body>
-    <h3>REGISTRARSE</h3>
-    <form action = "create.php" method="post"> <br>
+    <h3>Registrar Usuario</h3>
+
+    <a href="index.php">Regresar</a>
+
+    <form action = "../Modelo/crud.php" method="post"> <br>
         <label for="">Primer nombre</label> <br>
         <input type="text" name="first_name"><br>
         <label for="">Segundo nombre</label><br>
@@ -29,6 +32,7 @@
         <label for="">Ingrese su edad</label><br>
         <input type="number"name="age"><br>
         <br>
-        <button type="submit" class="shadow__btn" >Enviar</button>
+        <button type="submit" class="shadow__btn" >Guardar</button>
+
 
     </form>
